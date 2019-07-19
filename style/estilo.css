@@ -1,0 +1,221 @@
+@charset "UTF-8";
+@author "Aline Zenker";
+
+body{ /*Formatando o fundo da página*/
+	background-color:Grey;	/*cor do fundo*/
+}
+*{ /*formatar tudo*/
+	font-family:verdana;/*Tipo de fonte*/
+	line-height:1.5; /*Espaço entre linhas*/
+}
+.principal{
+	/*Altera a fonte:*/
+	font-family:Lucida Handwriting,Monotype Corsiva;
+	/*Altera o alinhamento*/
+	text-align:center;
+	/*Altera a cor da letra:*/
+	color:#FFC1C1;
+	/*Sombra no texto: */
+	text-shadow:2px -2px 4px black,-2px 2px 4px purple;
+}
+/*Formatando as tags em negrito:*/
+strong{
+	color:navy;
+}
+/*Formatando link*/
+a:link{/*Link antes de visitar*/
+	text-decoration:nome;/*Retirar Sublinhado*/
+	color:black/*cor do texto*/
+}
+a:hover{/*Sobre o link*/
+	font-weight:bold;/*Negrito*/
+	letter-spacing:2px;/*Espaço entre letras*/
+	text-shadow:1px 1px 2px black;
+}
+a:visited{
+	color:black;/*Link Visitado*/
+}
+
+/*Formatando a página fontes.html*/
+#fonte1{
+	font-family:arial;
+}
+#fonte2{
+	font-family:verdana;
+}
+#fonte3{
+	font-family:lucida Handwriting;
+}
+#fonte4{
+	font-family:comic sans ms;
+}
+#tam1{
+	font-size:10pt;
+}
+#tam2{
+	font-size:10px;
+}
+#tam3{
+	font-size:1em; /*Igual a 12pt*/
+}
+#efeito1{
+	font-weight:900 /*Negrito*/
+}
+#efeito2{
+	font-style:italic; /*Itálico*/
+}
+#efeito3{
+	text-shadow:2px 2px 2px purple;
+}
+#efeito4{
+	color:red;
+	text-shadow:-1px -1px 2px yellow,
+				-4px -4px 2px red;
+}
+#efeito5{
+	text-transform:uppercase; /*Maiúsculo*/
+}
+#efeito6{
+	text-transform:lowercase; /*Minusculo*/
+}
+#efeito7{
+	font-variant:small-caps; /*Versalete*/
+}
+
+/*Formatando Parágrafos.html*/
+#esquerda{
+	text-align:left; /*alinhar a esquerda*/
+	text-indent:20px; /*recua de primeira linha*/
+	text-shadow:1px 1px 2px black;
+	color:yellow;
+}
+#centralizado{
+	text-align:center; /*centralizar*/
+	line-height:2; /*espaço duplo entre linhas*/
+	font-weight:bold; /*Negrito*/
+	font-variant:small-caps; /*Versalete*/
+}
+#direita{
+	text-align:right; /*alinhar à esquerda*/
+	font-style:italic; /*Itálico*/
+}
+#justificado{
+	text-align:justify; /*justificar*/
+	text-indent:25px; /*recuo de primeira linha*/
+	font-weight:bold; 
+	text-shadow:1px 1px 2px black;
+	background-color:white;
+	margin:20px;
+	/*A margin define a margem externa, primeiro superior, segundo direita, terceiro inferior, quarto esquerda*/
+	padding:20px;
+	/*O padding define a margem interna*/
+	border:4px double red;
+	/*solid, groove, double, dashed, dotted, inset, outset, etc*/
+}
+/*Formatação da Imagem da página paragrafos.html*/
+#d1{
+	width:250px; /*largura*/
+	float:left; /*none, left ou right*/
+	border:4px solid red; /*boarda*/
+	margin:5px 20px 0px 2px; /*margem externa*/
+	padding:10px; /*margem interna*/
+}
+img{
+	width:250px; /*largura*/
+}
+
+/*Formatação Para background.html*/
+p{
+	text-align:justify;
+	text-indent:30px;
+	line-height:2;
+	text-shadow:1px 1px 2px black;
+}
+#especial{
+	background-image:url(../images/fundo01.jpg);
+	background-attachment:fixed; /*Fixando a imagem ao fundo*/
+	background-repeat:no-repeat; /*Repetir a Imagem*/
+	background-size:100% 100%; /*Tamanho da Imagem*/
+}
+
+/*Formatando a página listas.html*/
+#lista1{
+	list-style-type:lower-alpha; /*letra minúscula*/
+}
+#lista2{
+	list-style-type:upper-roman; /*Romano*/
+}
+#lista3{
+	list-style-type:circle;
+	/*circle = Circulo ou square = Quadrado*/
+}
+#lista4{
+	list-style-image:url(../images/icone03.ico);
+	list-style-position:inside;
+}
+#lista5{
+	list-style-type:none;
+}
+#lista5 li{
+	display:inline;
+	padding:10px;
+}
+
+/*Formatando a página imagens.html*/
+#centro{
+	width:250px;
+	margin:0 auto;
+}
+#esq{
+	width:250px;
+	float:left;
+}
+#dir{
+	width:250px;
+	float:right;
+}
+#desce{
+	margin-top:300px;
+}
+
+/*Formatando a página tabelas.html*/
+table,tr,td,th{
+	border:1px solid black;
+	border-spacing:0;
+}
+table{
+	margin:0 auto; /*O primeiro valor(0) serve para centralizar a largura, o segundo valor(auto) serve para centralizar os lados*/
+	border:6px groove green;
+}
+th{
+	background-color:navy;
+	color:white;
+}
+.meio{
+	text-align:center;
+}
+#sete{
+	font-size:20pt;
+	color:red;
+}
+tbody{
+	background-color:lightyellow;
+}
+
+#tabela2 img{
+	width:140px;/*Largura*/
+	height:120px;/*Altura*/
+}
+#tabela2 th{
+	background-color:magenta;
+	color:pink;
+}
+#tabela2 td,#tabela2 th,#tabela2 tr{
+	border:1px solid magenta;
+	height:50px;
+	width:140px;
+	text-align:center;
+}
+#tabela2{
+	border:4px groove magenta;
+}
